@@ -1,0 +1,42 @@
+[
+    {
+        "id": 1,
+        "name": "Remera Urbana",
+        "price": 35300.00,
+        "imgUrl": "https://i.ibb.co/5g53BZLV/remera-anime.png",
+        "type": "dtf",
+        "stock": 15
+    },
+    {
+        "id": 2,
+        "name": "Remera Deportiva",
+        "price": 42000.00,
+        "imgUrl": "https://i.ibb.co/TqRxtLHj/remera-deporte.png",
+        "type": "sublimacion",
+        "stock": 8
+    },
+    {
+        "id": 3,
+        "name": "Remera Corporativa",
+        "price": 28000.00,
+        "imgUrl": "https://i.ibb.co/svbkmsry/remera-logo.png",
+        "type": "serigrafia",
+        "stock": 22
+    },
+    {
+        "id": 4,
+        "name": "Remera Rock",
+        "price": 38000.00,
+        "imgUrl": "https://i.ibb.co/C5nSVK3Z/remera-rock.png",
+        "type": "dtf",
+        "stock": 12
+    },
+    {
+        "id": 5,
+        "name": "Remera Serie- Alta Definición",
+        "price": 52000.00,
+        "imgUrl": "https://i.ibb.co/d0Wsmy95/remera-serie.png",
+        "type": "dtf",
+        "stock": 5
+    }
+]

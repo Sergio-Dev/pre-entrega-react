@@ -1,0 +1,75 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    row-gap: 20px;
+
+    background-image: linear-gradient(169deg, rgba(236, 236, 236, 0.04) 0%, rgba(236, 236, 236, 0.04) 82%,rgba(202, 202, 202, 0.04) 82%, rgba(202, 202, 202, 0.04) 100%),linear-gradient(140deg, rgba(214, 214, 214, 0.04) 0%, rgba(214, 214, 214, 0.04) 40%,rgba(8, 8, 8, 0.04) 40%, rgba(8, 8, 8, 0.04) 100%),linear-gradient(270deg, rgba(101, 101, 101, 0.04) 0%, rgba(101, 101, 101, 0.04) 46%,rgba(211, 211, 211, 0.04) 46%, rgba(211, 211, 211, 0.04) 100%),linear-gradient(159deg, rgba(200, 200, 200, 0.04) 0%, rgba(200, 200, 200, 0.04) 43%,rgba(214, 214, 214, 0.04) 43%, rgba(214, 214, 214, 0.04) 100%),linear-gradient(90deg, #c47110,rgb(253, 145, 96));
+    color: white;
+
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    border-bottom: 1px solid black;
+}
+
+.logoTitle{
+    color: white;
+    padding: 0;
+    margin: 0;
+    line-height: 25px;
+}
+
+.logoText{
+    margin-top: 0;
+    color: black;
+}
+
+.logoContainer span{
+    color: black;
+    font-size: 50px;
+}
+
+.nav{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+
+.nav a{
+    display: inline-block;
+    padding: 5px 10px;
+    font-size: 17px;
+    font-weight: 400;
+}
+
+.nav a:hover, .nav .linkActive{
+    color: black;
+    text-decoration: underline;
+    text-underline-offset: 8px;
+}
+
+.iconContainer{
+    display: flex;
+    column-gap: 30px;
+}
+
+.iconContainerFavorite, .iconContainerCart{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 3px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.iconContainerFavorite:hover, .iconContainerCart:hover{
+    color: black;
+}
+
+.iconContainer i{
+    font-size: 15px;
+}

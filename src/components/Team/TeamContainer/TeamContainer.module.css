@@ -1,0 +1,15 @@
+.TeamContainer{
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 30px;align-items: center;
+    gap: 26px;
+    justify-content: space-between;
+    text-align: center;
+    padding: 20px;
+}
+
+h2{
+    color: white;
+    font-size: 28px;
+    margin-bottom: 20px;
+}

@@ -1,0 +1,25 @@
+.footer{
+    background-color: #c47110;
+    color: white;
+    border-top: 1px solid black;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.team{
+    text-align: center;
+    width: 100%;
+}
+
+.footerContainer{
+    display: flex;
+}
+
+.footer div.copy{
+    width: 100%;
+    text-align: center;
+    border-top: 1px solid black;
+    margin-top: 20px;
+    padding-top: 10px;
+}

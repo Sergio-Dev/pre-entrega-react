@@ -1,0 +1,26 @@
+.itemMember img{
+    width: 130px;
+    border-radius: 100%;
+    display: flex;
+}
+
+.itemMember {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 2px;
+}
+
+.memberName{
+    font-size: 20px;
+}
+
+.memberRole{
+    color: black;
+    font-weight: lighter;
+}
+
+.memberEmail{
+    color: #ffe3c6;
+}

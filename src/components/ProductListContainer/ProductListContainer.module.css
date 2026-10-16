@@ -1,0 +1,39 @@
+.ProductListContainer{
+    width: 100%;
+    padding: 30px 0;
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.productsTitle{
+    color: #c47110;
+    font-size: 28px;
+}
+
+.productsText{
+    color: black;
+    font-weight: lighter;
+    font-size: 17px;
+}
+
+/* Escritorio */
+@media (max-width: 1200px) {
+  .ProductListContainer{
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+/* Tablets - Notebooks*/
+@media (max-width: 992px) {
+    .ProductListContainer{
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* Celulares*/
+@media (max-width: 576px) {
+  .ProductListContainer{
+    grid-template-columns: repeat(1, 1fr);
+  }
+}

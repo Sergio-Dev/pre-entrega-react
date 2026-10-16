@@ -1,0 +1,23 @@
+[
+    {
+        "id": 1,
+        "name": "Alejandro Gómez",
+        "role": "Director de Arte y Diseñador Principal",
+        "email": "alejandro.gomez@remix.com",
+        "imgUrl":"../images/team/role-1.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Sofía Rossi",
+        "role": "Especialista en Impresión y Producción",
+        "email": "sofia.rossi@remix.com",
+        "imgUrl":"../images/team/role-2.jpg"
+    },
+    {
+        "id": 3,
+        "name": "Lucas Martínez",
+        "role": "E-commerce Manager",
+        "email": "lucas.martinez@remix.com",
+        "imgUrl":"../images/team/role-3.jpg"
+    }
+]
