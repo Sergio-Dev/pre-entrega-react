@@ -6,7 +6,7 @@ function Header(){
             <header className={styles.header}>
                 <div className={styles.logoContainer}>
                     <h1 className={styles.logoTitle}>Remix<span>.</span></h1>
-                    <p className={styles.logoText}>remeras Personalizadas</p>
+                    <p className={styles.logoText}>Remeras Personalizadas</p>
                 </div>
                 
                 <nav className={styles.nav}>
